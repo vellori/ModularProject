@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MockNSamples/MockNSamples.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ItemDetail/ItemDetail.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ItemNavigator/ItemNavigator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Analytics/Analytics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Protocols/Protocols.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ModularProject/ModularProject.xcodeproj">
+   </FileRef>
+</Workspace>

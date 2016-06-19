@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModularProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EtZ-Fo-5aS">
+                                <rect key="frame" x="166" y="249" width="240" height="128"/>
+                                <connections>
+                                    <segue destination="fsc-Wh-Vg3" kind="embed" id="i7x-0H-wAT"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65098039220000004" green="0.81176470590000005" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="EtZ-Fo-5aS" secondAttribute="trailing" id="ccD-0S-Yd9"/>
+                            <constraint firstItem="EtZ-Fo-5aS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eey-2a-ono"/>
+                            <constraint firstItem="EtZ-Fo-5aS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p9Y-Nl-CBE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="iy2-US-UYT" kind="showDetail" id="zI3-2u-Ojn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--ItemNavigator-->
+        <scene sceneID="sIH-XR-4vI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ItemNavigator" bundleIdentifier="com.vellori.ItemNavigator" id="fsc-Wh-Vg3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZd-TN-W6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766.5" y="137"/>
+        </scene>
+        <!--ItemDetail-->
+        <scene sceneID="dh7-wl-0ks">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ItemDetail" bundleIdentifier="com.vellori.ItemDetail" id="erY-yq-67m" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjG-0d-bQ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817.5" y="701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="l1e-ce-dxV">
+            <objects>
+                <viewController id="iy2-US-UYT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wpY-Cy-MxR"/>
+                        <viewControllerLayoutGuide type="bottom" id="BIm-ts-Md4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vd9-aH-RM7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hpm-SH-RHd">
+                                <rect key="frame" x="161" y="218" width="240" height="128"/>
+                                <connections>
+                                    <segue destination="erY-yq-67m" kind="embed" id="EtA-Jo-wDk"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BIm-ts-Md4" firstAttribute="top" secondItem="Hpm-SH-RHd" secondAttribute="bottom" id="E9u-ts-IxF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hpm-SH-RHd" secondAttribute="trailing" id="FCU-8s-2AA"/>
+                            <constraint firstItem="Hpm-SH-RHd" firstAttribute="top" secondItem="wpY-Cy-MxR" secondAttribute="bottom" id="Qez-VS-5Uj"/>
+                            <constraint firstItem="Hpm-SH-RHd" firstAttribute="leading" secondItem="Vd9-aH-RM7" secondAttribute="leadingMargin" id="XnQ-j2-Smb"/>
+                            <constraint firstItem="Hpm-SH-RHd" firstAttribute="centerX" secondItem="Vd9-aH-RM7" secondAttribute="centerX" id="gIi-2D-Fsn"/>
+                            <constraint firstItem="Hpm-SH-RHd" firstAttribute="centerY" secondItem="Vd9-aH-RM7" secondAttribute="centerY" id="ubw-Vz-LAQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gIi-2D-Fsn"/>
+                                <exclude reference="ubw-Vz-LAQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7c-CP-eGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="1237"/>
+        </scene>
+    </scenes>
+</document>
