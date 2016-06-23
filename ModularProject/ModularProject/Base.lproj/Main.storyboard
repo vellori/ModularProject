@@ -28,7 +28,7 @@
                                 <rect key="frame" x="16" y="472" width="343" height="195"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="CIAO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Hola!"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

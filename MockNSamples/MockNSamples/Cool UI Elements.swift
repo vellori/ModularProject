@@ -46,6 +46,10 @@ public class SomeCoolButton : UIControl {
         imageView.image = UIImage(named: "heart",inBundle: bundle,compatibleWithTraitCollection: traitCollection)
     }
     
+    public override func prepareForInterfaceBuilder() {
+        setup()
+    }
+    
     func panned(panner: UIPanGestureRecognizer) {
         switch panner.state {
         case .Began:
