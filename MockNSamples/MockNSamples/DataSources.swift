@@ -10,7 +10,9 @@ import Foundation
 import UIKit
 
 public class SimpleTableDS : NSObject, UITableViewDataSource {
-    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    public func tableView(tableView: UITableView,
+                          cellForRowAtIndexPath indexPath: NSIndexPath)
+        -> UITableViewCell {
         let cell = UITableViewCell.init(style: .Default, reuseIdentifier: "mock")
         cell.textLabel?.text = "Item \(indexPath.row)"
         return cell
@@ -24,7 +26,8 @@ public class SimpleTableDS : NSObject, UITableViewDataSource {
 public class PullToRefreshIB : NSObject {
     @IBOutlet var tableView : UITableView! {
         didSet {
-            refreshControl.addTarget(self, action: #selector(requestRefresh), forControlEvents: .ValueChanged)
+            refreshControl.addTarget(self, action: #selector(requestRefresh),
+                                     forControlEvents: .ValueChanged)
             tableView.addSubview(refreshControl)
         }
     }

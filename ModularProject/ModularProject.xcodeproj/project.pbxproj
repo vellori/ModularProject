@@ -11,6 +11,8 @@
 		6553C47F1D16A56F008B198C /* ItemDetail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6553C47D1D16A56F008B198C /* ItemDetail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6553C4821D16A576008B198C /* ItemNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6553C4811D16A576008B198C /* ItemNavigator.framework */; };
 		6553C4831D16A576008B198C /* ItemNavigator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6553C4811D16A576008B198C /* ItemNavigator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65627F711D1C8A0B00CBAD5C /* MockNSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65627F701D1C8A0B00CBAD5C /* MockNSamples.framework */; };
+		65627F721D1C8A0B00CBAD5C /* MockNSamples.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65627F701D1C8A0B00CBAD5C /* MockNSamples.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		656623081D15915B00BF8F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656623071D15915B00BF8F5F /* AppDelegate.swift */; };
 		6566230A1D15915B00BF8F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656623091D15915B00BF8F5F /* ViewController.swift */; };
 		6566230D1D15915B00BF8F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6566230B1D15915B00BF8F5F /* Main.storyboard */; };
@@ -37,6 +39,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				6553C47F1D16A56F008B198C /* ItemDetail.framework in Embed Frameworks */,
+				65627F721D1C8A0B00CBAD5C /* MockNSamples.framework in Embed Frameworks */,
 				6553C4831D16A576008B198C /* ItemNavigator.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -47,6 +50,7 @@
 /* Begin PBXFileReference section */
 		6553C47D1D16A56F008B198C /* ItemDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ItemDetail.framework; path = "/Users/andre/Library/Developer/Xcode/DerivedData/ModularProject-ewcdubztgfhkgwfizhqvwgbopdrc/Build/Products/Debug-iphonesimulator/ItemDetail.framework"; sourceTree = "<absolute>"; };
 		6553C4811D16A576008B198C /* ItemNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ItemNavigator.framework; path = "/Users/andre/Library/Developer/Xcode/DerivedData/ModularProject-ewcdubztgfhkgwfizhqvwgbopdrc/Build/Products/Debug-iphonesimulator/ItemNavigator.framework"; sourceTree = "<absolute>"; };
+		65627F701D1C8A0B00CBAD5C /* MockNSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MockNSamples.framework; path = "/Users/andre/Library/Developer/Xcode/DerivedData/ModularProject-ewcdubztgfhkgwfizhqvwgbopdrc/Build/Products/Debug-iphonesimulator/MockNSamples.framework"; sourceTree = "<absolute>"; };
 		656623041D15915B00BF8F5F /* ModularProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656623071D15915B00BF8F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656623091D15915B00BF8F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6553C47E1D16A56F008B198C /* ItemDetail.framework in Frameworks */,
+				65627F711D1C8A0B00CBAD5C /* MockNSamples.framework in Frameworks */,
 				6553C4821D16A576008B198C /* ItemNavigator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +87,7 @@
 		656622FB1D15915B00BF8F5F = {
 			isa = PBXGroup;
 			children = (
+				65627F701D1C8A0B00CBAD5C /* MockNSamples.framework */,
 				6553C4811D16A576008B198C /* ItemNavigator.framework */,
 				6553C47D1D16A56F008B198C /* ItemDetail.framework */,
 				656623061D15915B00BF8F5F /* ModularProject */,

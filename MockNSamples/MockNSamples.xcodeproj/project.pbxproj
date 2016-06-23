@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65627F741D1C954600CBAD5C /* Cool UI Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65627F731D1C954600CBAD5C /* Cool UI Elements.swift */; };
+		65627F761D1C95D300CBAD5C /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65627F751D1C95D300CBAD5C /* assets.xcassets */; };
 		656623F21D1592CF00BF8F5F /* MockNSamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 656623F11D1592CF00BF8F5F /* MockNSamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656623FC1D169AC000BF8F5F /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656623FB1D169AC000BF8F5F /* DataSources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65627F731D1C954600CBAD5C /* Cool UI Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cool UI Elements.swift"; sourceTree = "<group>"; };
+		65627F751D1C95D300CBAD5C /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		656623EE1D1592CF00BF8F5F /* MockNSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockNSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656623F11D1592CF00BF8F5F /* MockNSamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockNSamples.h; sourceTree = "<group>"; };
 		656623F31D1592CF00BF8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 				656623F11D1592CF00BF8F5F /* MockNSamples.h */,
 				656623F31D1592CF00BF8F5F /* Info.plist */,
 				656623FB1D169AC000BF8F5F /* DataSources.swift */,
+				65627F731D1C954600CBAD5C /* Cool UI Elements.swift */,
+				65627F751D1C95D300CBAD5C /* assets.xcassets */,
 			);
 			path = MockNSamples;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65627F761D1C95D300CBAD5C /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656623FC1D169AC000BF8F5F /* DataSources.swift in Sources */,
+				65627F741D1C954600CBAD5C /* Cool UI Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				656623F81D1592CF00BF8F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
