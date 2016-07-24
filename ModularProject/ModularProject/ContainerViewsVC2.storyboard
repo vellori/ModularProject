@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G6h-dy-awo">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--VC2-->
+        <scene sceneID="8o3-eu-XFz">
+            <objects>
+                <viewController id="G6h-dy-awo" userLabel="VC2" customClass="NthVCViewController" customModule="ModularProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VD9-oy-Id0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sfz-N1-d2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5lC-hm-GwI" customClass="ColourfulView" customModule="ModularProject" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VC2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wro-P6-4X2">
+                                <rect key="frame" x="83.5" y="28" width="33" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN7-Wl-EHn">
+                                <rect key="frame" x="77" y="85" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.65098039220000004" green="0.81176470590000005" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="6Oz-JO-KbU" kind="presentation" modalPresentationStyle="overCurrentContext" id="Y9U-Um-G3x"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flg-ym-p3O">
+                                <rect key="frame" x="79" y="159" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wro-P6-4X2" firstAttribute="top" secondItem="VD9-oy-Id0" secondAttribute="bottom" constant="8" id="CMs-cY-6Lc"/>
+                            <constraint firstItem="flg-ym-p3O" firstAttribute="top" secondItem="qN7-Wl-EHn" secondAttribute="bottom" constant="44" id="GPn-GC-FGM"/>
+                            <constraint firstItem="flg-ym-p3O" firstAttribute="centerX" secondItem="5lC-hm-GwI" secondAttribute="centerX" id="KTl-Cx-IiU"/>
+                            <constraint firstItem="qN7-Wl-EHn" firstAttribute="centerX" secondItem="5lC-hm-GwI" secondAttribute="centerX" id="M4m-Wi-qvj"/>
+                            <constraint firstItem="wro-P6-4X2" firstAttribute="centerX" secondItem="5lC-hm-GwI" secondAttribute="centerX" id="mrB-u4-bmg"/>
+                            <constraint firstItem="qN7-Wl-EHn" firstAttribute="centerY" secondItem="5lC-hm-GwI" secondAttribute="centerY" id="zuV-gx-ich"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="200" height="200"/>
+                    <connections>
+                        <outlet property="label" destination="flg-ym-p3O" id="toj-Qh-dwJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FqX-KZ-40C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="656"/>
+        </scene>
+        <!--Final-->
+        <scene sceneID="Fyu-hV-WdQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ContainerViews" referencedIdentifier="Final" id="6Oz-JO-KbU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cka-dP-quR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1910.5" y="646"/>
+        </scene>
+    </scenes>
+</document>
